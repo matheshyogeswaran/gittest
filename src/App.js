@@ -12,8 +12,10 @@ function App() {
   //   }).then(({ data }) => {
   //     console.log(data);
   //   });
+
+  console.log("hi");
   const octokit = new Octokit({
-    auth: "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",
+    auth: "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",
   });
   octokit.repos
     .listForUser({
